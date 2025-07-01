@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Download Automático</title>
+</head>
+<body>
+  <script>
+    // Cria um link oculto para baixar o arquivo
+    const link = document.createElement("a");
+    link.href = "codigo.txt"; // seu arquivo precisa estar no mesmo diretório
+    link.download = "codigo.txt";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  </script>
+</body>
+</html>

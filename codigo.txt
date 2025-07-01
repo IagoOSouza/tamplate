@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Site Profissional</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #0077cc;
+      padding: 20px;
+      color: white;
+      text-align: center;
+    }
+    nav {
+      background: #005fa3;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 15px 20px;
+      display: block;
+      font-weight: bold;
+    }
+    nav a:hover {
+      background-color: #004080;
+    }
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    h1, h2 {
+      color: #0077cc;
+    }
+    footer {
+      background-color: #222;
+      color: #eee;
+      text-align: center;
+      padding: 15px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Nome da Empresa</h1>
+    <p>Seu slogan ou frase de impacto aqui</p>
+  </header>
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#contato">Contato</a>
+  </nav>
+  <main>
+    <section id="sobre">
+      <h2>Sobre Nós</h2>
+      <p>Somos uma empresa dedicada a oferecer os melhores serviços para nossos clientes. Qualidade e compromisso são nossa prioridade.</p>
+    </section>
+    <section id="servicos">
+      <h2>Serviços</h2>
+      <ul>
+        <li>Desenvolvimento de sites</li>
+        <li>Design gráfico</li>
+        <li>Consultoria em TI</li>
+      </ul>
+    </section>
+    <section id="contato">
+      <h2>Contato</h2>
+      <p>Email: contato@empresa.com.br</p>
+      <p>Telefone: (11) 99999-9999</p>
+      <p>Endereço: Rua Exemplo, 123, Cidade</p>
+    </section>
+  </main>
+  <footer>
+    <p>© 2025 Nome da Empresa. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
